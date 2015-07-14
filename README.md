@@ -17,4 +17,8 @@ The vortex can be suppressed with a valid iris (see section below).
 
 # Direction and Momentum
 It is important for a Stargate to have a clear sense of direction, otherwise any matter that reforms may end up going the wrong way, and materialising into solid rock. Without a defined direction, a Stargate simply uses all sides as valid, but cuts momentum. This can be devastating, as the 'Kawoosh' will go both in front and behind from a 'simple' Stargate, and may cause all sorts of havoc. When a direction is defined, the Stargate transforms momentum for a fluid transportation.
-A momentum accelerator can be attached to either a dialled Stargate or a dialling Stargate for a momentum boost, and a momentum canceller can be attached to cut the momentum of a traveller going in or coming out of a Stargate
+A momentum accelerator can be attached to either a dialled Stargate or a dialling Stargate for a momentum boost, and a momentum canceller can be attached to cut the momentum of a traveller going in or coming out of a Stargate.
+By attaching a vortex silencer, it's also possible to suppress the vortex. This requires significantly more power however.
+
+# Naquatic Energy
+In your research of the Stargates, you uncovered an interesting type of energy. Unlike other forms of energy, you found this one to be particularly pure, purer than other similar sources. Particularly, you found this form of energy to resonate with naquadah, and in particular the Stargate. You've found that naquadah has the unique ability to conform other energy types to this form of energy. This energy is the only energy source capable of powering the Stargate, although it may seem to be powerable by other forms due to the high naquadah content.
