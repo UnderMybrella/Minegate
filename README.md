@@ -2,7 +2,7 @@
 Source core for Minegate
 
 # What is Minegate?
-Minegate is a Minecraft mod adding several things from the Stargate Universe, such as Stargates, the Rings transport system, Naquadah & Naquadriah, Naquadah Generators, and more.n This mod is focused primarily on transport, with the Naquadah generators incorporating power generation.
+Minegate is a Minecraft mod adding several things from the Stargate Universe, such as Stargates, the Rings transport system, different minerals, Naquadah Generators, and more. This mod is focused primarily on transport, with the Naquadah generators incorporating power generation.
 
 # The Stargate
 The Stargate is a relatively freeform multiblock structure that makes use of a few blocks - Stargate frames, Stargate glyphs, Chevrons and the controller. the controller is responsible for ensuring that it is, in fact, a Stargate, while the other components are used to assist in dialling to or from the Stargate. The frames are crucial for creating a frame, with the Stargate glyphs allowing it to dial out to other Stargates. The chevrons are responsible for allowing the Stargate to lock into different glyphs. Whenever you dial out of a Stargate, you need both glyphs and chevrons, and can only dial to a Stargate that has an address containing the glyphs on your gate. Gates may be dialled into by other Stargates regardless of power or glyphs; the dialling gate provides power. If, however, the dialling gate loses power, the dialled gate can take over and supply power. If no power is provided to the gate, the gate will shut down.
@@ -22,3 +22,11 @@ By attaching a vortex silencer, it's also possible to suppress the vortex. This 
 
 # Naquatic Energy
 In your research of the Stargates, you uncovered an interesting type of energy. Unlike other forms of energy, you found this one to be particularly pure, purer than other similar sources. Particularly, you found this form of energy to resonate with naquadah, and in particular the Stargate. You've found that naquadah has the unique ability to conform other energy types to this form of energy. This energy is the only energy source capable of powering the Stargate, although it may seem to be powerable by other forms due to the high naquadah content.
+
+# Minerals
+Naquadah is a unique mineral with the ability to convert any form of energy into Naquatic Energy, thus allowing the Stargate to be powered through almost any form of energy. In addition, Naquadriah is a much more volatile version of Naquadah designed specifically for weapons, although it can also be used in generators.
+Trinium is an alloy that is lighter and tougher than steel.
+
+# Possible or Planned Technology
+~ DNA Resequencer (Not sure if it'll happen, but it may. Probably will end up as a separate module or something)
+~ 
