@@ -17,10 +17,12 @@ public class DHDRenderer extends TileEntitySpecialRenderer {
 	//The model of your block
     private final DialHomeDevice model;
     private final DialHomeDevice model2;
+    private final DialHomeDevice model3;
    
     public DHDRenderer() {
-            this.model = new DialHomeDevice(true);
-            this.model2 = new DialHomeDevice(false);
+            this.model = new DialHomeDevice(true, false);
+            this.model2 = new DialHomeDevice(false, false);
+            this.model3 = new DialHomeDevice(false, true);
     }
    
     private void adjustRotatePivotViaMeta(World world, int x, int y, int z) {
@@ -44,6 +46,8 @@ public class DHDRenderer extends TileEntitySpecialRenderer {
             this.model.render((Entity)null, 0.0F, 0.0F, -0.1F, 0.0F, 0.0F, 0.0625F);
             this.model2.setTileEntity(te);
             this.model2.render((Entity)null, 0.0F, 0.0F, -0.1F, 0.0F, 0.0F, 0.0625F);
+            this.model3.setTileEntity(te);
+            this.model3.render((Entity)null, 0.0F, 0.0F, -0.1F, 0.0F, 0.0F, 0.0625F);
     //Tell it to stop rendering for both the PushMatrix's
             GL11.glPopMatrix();
             GL11.glPopMatrix();

@@ -13,8 +13,8 @@ public class ModelTopBox extends ModelBox {
 	TexturedQuad[] quads = null;
 
 	public ModelTopBox(ModelRenderer p_i1171_1_, int p_i1171_2_, int p_i1171_3_, float p_i1171_4_, float p_i1171_5_,
-			float p_i1171_6_, int p_i1171_7_, int p_i1171_8_, int p_i1171_9_, float p_i1171_10_) {
-		super(p_i1171_1_, p_i1171_2_, p_i1171_3_, p_i1171_4_, p_i1171_5_, p_i1171_6_, p_i1171_7_, p_i1171_8_, p_i1171_9_,
+			float p_i1171_6_, float p_i1171_7_, float p_i1171_8_, float p_i1171_9_, float p_i1171_10_) {
+		super(p_i1171_1_, p_i1171_2_, p_i1171_3_, p_i1171_4_, p_i1171_5_, p_i1171_6_, (int) p_i1171_7_, (int) p_i1171_8_, (int) p_i1171_9_,
 				p_i1171_10_);
 
 		try{
