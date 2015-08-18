@@ -1,0 +1,15 @@
+MineGate:earth=Earth
+
+death.attack.MineGate:stargateDamage=%1$s was disintegrated by a wormhole
+
+#Botania
+
+MineGate:botania.category=MineGate
+MineGate:botania.naquadah=Naquadah
+MineGate:botania.stargate=The Stargate
+
+#Botania Text
+MineGate:botania.naquadah.one=Naquadah is a unique mineral with the ability to convert any form of energy into Naquatic Energy, thus allowing the Stargate to be powered through almost any form of energy.
+MineGate:botania.stargate.general=The Stargate is best waifu
+MineGate:botania.stargate.controller=You need a firm grip on ultimate waifu
+MineGate:botania.stargate.controller.desc=Best Waifu
