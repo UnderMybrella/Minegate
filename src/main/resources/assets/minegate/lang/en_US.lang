@@ -1,0 +1,56 @@
+MineGate:earth=Earth
+
+MineGate:wormholeEffect=Wormhole Sickness
+
+death.attack.MineGate:stargateDamage=%1$s was disintegrated by a wormhole
+itemGroup.MineGate:creativeTab=MineGate
+
+tile.MineGate:frame.name=Stargate Frame
+tile.MineGate:controller.name=Stargate Controller
+tile.MineGate:chevron.name=Stargate Chevron
+tile.MineGate:weakNaquadahOre.name=Weak Naquadah Ore
+tile.MineGate:portal.name=Stargate Event Horizon
+tile.MineGate:dhd.name=Dial Home Device
+tile.MineGate:ccPeripheral.name=ComputerCraft Peripheral
+tile.MineGate:redstoneControl.name=Redstone Control
+tile.MineGate:storage.0.name=Block of Pure Naquadah
+tile.MineGate:storage.1.name=Block of Refined Naquadah
+tile.MineGate:storage.2.name=Block of Raw Naquadah
+tile.MineGate:storage.3.name=Block of Naquadah Shards
+
+tile.MineGate:naquityProvider.name=Naquity Provider
+
+item.MineGate:glyphSetter.name=Glyph Setter
+item.MineGate:dhdBinder.name=DHD Binder
+
+item.MineGate:naquadahDerivatives.0.name=Pure Naquadah
+item.MineGate:naquadahDerivatives.1.name=Refined Naquadah
+item.MineGate:naquadahDerivatives.2.name=Raw Naquadah
+item.MineGate:naquadahDerivatives.3.name=Naquadah Shard
+
+#Tooltips
+tile.MineGate:naquityProvider.0.tooltip=Punching Bag
+tile.MineGate:naquityProvider.8.tooltip=Mana -> Naquity
+tile.MineGate:naquityProvider.9.tooltip=RF -> Naquity
+tile.MineGate:naquityProvider.10.tooltip=EU -> Naquity
+
+#Botania
+
+MineGate:botania.category=MineGate
+MineGate:botania.naquadah=Naquadah
+MineGate:botania.stargate=The Stargate
+
+#Botania Text
+MineGate:botania.naquadah.one=Naquadah is a unique mineral with the ability to convert any form of energy into Naquatic Energy (more commonly known as 'naquity'), thus allowing the Stargate to be powered through almost any form of energy.
+
+MineGate:botania.stargate.general=The Stargate is a highly advanced technological wonder, capable of transposing matter to an entirely different location through a wormhole. Composed of many parts, it truly is incredible at how it is able to move matter.
+MineGate:botania.stargate.general.1=While there are many mechanics to the Stargate, most of which are documented in their own sections, it's important to remember that not everything can be recorded. One important thing to note, is that entering a Stargate that did not dial out, but was dialled to, had unknown consequences. We would recommend against it.
+MineGate:botania.stargate.controller=The Stargate Controller is the brain of the entire device. This is the component that is in charge of controlling it's own coordinates, dialling out, finding the new location, and transposing the matter there correctly.
+MineGate:botania.stargate.controller.1=§4Right-Clicking§0 the Stargate Controller with a wrench (or a stick, although only if you don't have any wrenches) will change the direction of a Stargate. This is crucial in determining the direction that matter will exit from, or how it will be positioned when going through the wormhole.
+MineGate:botania.stargate.controller.2=§4Right-Clicking§0 it with, say, a configured Glyph Setter, will change the address of the Stargate to the configuration on the card. §4Right-Clicking§0 it with a DHD Binder will bind the item to that controller. §4Right-Clicking§0 it with nothing in your hand will display the address of the gate
+MineGate:botania.stargate.controller.desc=§oChoose Wisely
+MineGate:botania.stargate.frame=The Frame of the Stargate is crucial for determining the exact size of the event horizon. An incorrectly built frame could be disastrous, resulting in catastrophic destruction
+MineGate:botania.stargate.frame.desc=Framing the Future
+MineGate:botania.stargate.naquity=Naquity is, essentially, the power system of the Stargate. However, due to the complexity of the topic, it will be covered in it's own section, along with Naquity Providers
+MineGate:botania.stargate.dialling=Dialling is, undeniably, the most important aspect of the Stargate. Without being able to dial the Stargate, travel becomes impossible. As with Naquity, this is covered in it's own section due to the nature of the topic
+
