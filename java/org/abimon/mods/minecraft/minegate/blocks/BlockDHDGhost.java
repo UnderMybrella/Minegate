@@ -1,5 +1,9 @@
 package org.abimon.mods.minecraft.minegate.blocks;
 
+import java.util.Random;
+
+import org.abimon.mods.minecraft.minegate.MineGate;
+
 import cpw.mods.fml.common.Optional.Interface;
 import cpw.mods.fml.common.Optional.InterfaceList;
 import cpw.mods.fml.relauncher.Side;
@@ -7,8 +11,10 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.world.World;
 import vazkii.botania.api.lexicon.ILexiconable;
 import vazkii.botania.api.lexicon.LexiconEntry;
@@ -116,5 +122,15 @@ public class BlockDHDGhost extends Block implements ILaputaImmobile, ILexiconabl
 	public LexiconEntry getEntry(World world, int x, int y, int z, EntityPlayer player, ItemStack lexicon) {
 		return null;
 	}
+	
+    public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
+    {
+        return Item.getItemFromBlock(MineGate.dialHomeDevice);
+    }
+    
+    public ItemStack getPickBlock(MovingObjectPosition target, World world, int x, int y, int z, EntityPlayer player)
+    {
+    	return new ItemStack(MineGate.dialHomeDevice);
+    }
 
 }
